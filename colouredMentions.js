@@ -2,7 +2,7 @@
 // @name        MethMonkey Mentions
 // @namespace   Violentmonkey Scripts
 // @icon        https://www.17thshard.com/uploads/monthly_2023_10/android-chrome-36x36.png?v=1710318496
-// @version     1.0.0
+// @version     1.0.1
 //
 // @match       *://www.17thshard.com/*
 // @grant       none
