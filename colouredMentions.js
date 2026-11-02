@@ -21,8 +21,11 @@ var userColours = {
   '68158': '#12674A', // Verdance
 //   '69131': '#37ad82', // Mori
   '69131': '#4dffc9', // Mori
-
 }
+
+var darkText = [
+    '69131', // Mori
+]
 
 CKEDITOR.plugins.add("ipsmentions", {
     init: function(c) {
@@ -180,7 +183,11 @@ CKEDITOR.plugins.ipsmentions = function(c) {
         this.currentMention.setAttribute("data-mentionid", a.attr("data-mentionid"));
         var id = a.attr("data-mentionid");
         if (userColours[id]) {
-          this.currentMention.setAttribute("style", `background-color:${userColours[id]}`)
+            var style = `background-color:${userColours[id]};`;
+            if (darkText.includes(id)) {
+                style += 'color:#121212;';
+            }
+            this.currentMention.setAttribute("style", style)
         };
         this.currentMention.setAttribute("data-stormere", "123")
         this.currentMention.setHtml("@" + a.find('[data-role\x3d"mentionname"]').html());
