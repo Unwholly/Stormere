@@ -19,6 +19,8 @@ var userColours = {
   '51701': '#7c98f4', // Bird Furious
   '68870': '#f2a528', // ROTTING_FANG
   '68158': '#12674A', // Verdance
+//   '69131': '#37ad82', // Mori
+  '69131': '#4dffc9', // Mori
 
 }
 
