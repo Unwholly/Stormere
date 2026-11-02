@@ -21,6 +21,7 @@ var userColours = {
   '68158': '#12674A', // Verdance
 //   '69131': '#37ad82', // Mori
   '69131': '#4dffc9', // Mori
+  '65710': '#3E88C7', // Hawks
 }
 
 var darkText = [
