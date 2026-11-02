@@ -16,8 +16,9 @@ var userColours = {
   '67132': '#e599c9', // Vinegar / Denissimo
   '68140': '#8569eb', // Usseewa
   '47472': '#00008B', // #1 Taln Fan
-  '51701': '#817cf4', // Bird Furious
+  '51701': '#7c98f4', // Bird Furious
   '68870': '#f2a528', // ROTTING_FANG
+  '68158': '#12674A', // Verdance
 
 }
 
